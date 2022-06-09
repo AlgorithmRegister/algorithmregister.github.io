@@ -19,4 +19,4 @@ For citizens, an algorithm register can be a medium to facilitate participation 
 
 ### Building on top of existing work
 
-Building on good practice of Amsterdam and Helsinki, KSF Lab will develop a common data schema for algorithm registries in cities. We will produce a validated, open-source version of an algorithm registry data schema, publicly available on the GitHub platform, that is ready for use in local algorithm registries. The registry data schema includes field attributes, names, categories, types, and descriptions and signifies the minimum required fields for a common baseline.
+Building on good practice of Amsterdam and Helsinki, DF Lab will develop a common data schema for algorithm registries in cities. We will produce a validated, open-source version of an algorithm registry data schema, publicly available on the GitHub platform, that is ready for use in local algorithm registries. The registry data schema includes field attributes, names, categories, types, and descriptions and signifies the minimum required fields for a common baseline.
