@@ -1,5 +1,5 @@
 ---
 layout: menu
-title: "Publieke controle op algoritmes"
-description: Samen werken aan verantwoorde en transparante inzet van algoritmische toepassingen door overheden.
+title: Algorithm Register
+description: Responsible and transparentuse of algorithmic applications by public organizations.
 ---

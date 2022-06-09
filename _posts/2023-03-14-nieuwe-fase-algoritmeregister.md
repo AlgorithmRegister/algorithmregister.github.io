@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "Nieuwe fase Algoritmeregister"
-date:   2022-03-14 14:00:00 +0100
-categories: nieuws
+title:  "Eurocities started"
+date:   2022-06-08 10:00:00 +0100
+categories: news
 ---
-## Good news everybody!
+## Eurocities started!
 
-We gaan weer verder met z'n allen! Dit is een voorbeeld nieuwsbericht.
+We

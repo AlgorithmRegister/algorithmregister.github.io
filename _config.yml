@@ -18,17 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Algoritmeregister
-email: info@algoritmeregister
+title: Algorithm Register
+email: info@algoritmeregister.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Algoritmeregister ondersteunt de algoritmeverantwoordelijke bij het snel en overzichtelijk inventariseren,
-  registreren en actualiseren van informatie over de inzet van algoritmische toepassingen binnen de organisatie,
-  op basis van de door het consortium ontwikkelde open standaard voor registratie van algoritmische toepassingen
-  in overheidsorganisaties.
+  Responsible and transparentuse of algorithmic applications by public organizations.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nl_algoreg
-github_username:  Algoritmeregister
+twitter_username: 
+github_username:  
 
 # Build settings
 sass:

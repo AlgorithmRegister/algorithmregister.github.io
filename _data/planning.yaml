@@ -1,0 +1,55 @@
+- when: Juni 1st
+  type: Milestone
+  title: Start preparation phase
+  description: |
+    Putting everything in place to get going:
+    
+    – create project website to publish intermedia results
+    – prepare a copy of the Dutch Algorithmic Transparency Standard repository
+    – prepare the kick-off meeting and interviews
+    – contact participating cities and plan individual interviews with cities
+    – plan kick-off meeting (online)
+    – create meetup calendar
+
+- when: Juni 20th
+  type: Milestone
+  title: Start analysis phase
+  description: |
+    Studying the existing standards and the local context and needs from the different participating cities.
+
+    – online* kick-off meeting (introduction to the Dutch standard, goals, discussion)
+    – individual interviews (introduction, goals, local context, use cases)
+    – t-gap analysis
+    – online* demo and discussion meetup
+
+- when: July 18th
+  type: Milestone
+  title: Start definition phase
+  description: |
+    Create a first draft of the proposed update to the Algorithmic Transparency Standard.
+
+    – create version 0.3 data schema proposal(s)
+    – create interview form for testing
+    – write documentation
+    – online* demo and discussion meetup every 2 weeks
+
+- when: August 1st
+  type: Milestone
+  title: Start development/pilot phase
+  description: |
+    Pilot using the proposed updated Algorithmic Transparency Standard in the different participating cities, learning from these experiences and updating the proposed update.
+
+- when: November 21st
+  type: Milestone
+  title: Start publication phase
+  description: |
+    Create the final proposal for updating the Algorithmic Transparency Standard and publishing it.
+
+    – publish standard and documentation to website
+    – online* end presentation
+
+- when: December 2nd
+  type: Milestone
+  title: End of project
+  description: |
+    

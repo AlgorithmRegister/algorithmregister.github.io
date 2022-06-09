@@ -1,30 +1,22 @@
 ---
 layout: default
-title: "Publieke controle op algoritmes"
-description: Samen werken aan verantwoorde en transparante inzet van algoritmische toepassingen door overheden.
+title: Algorithm Registers for Cities
+description: Responsible and transparent use of algorithmic applications.
 splash:
     image: true
     link:
-        url: /bijeenkomsten
-        text: Kom naar de bijeenkomsten
+        url: /planning
+        text: View the roadmap
 cta-button:
-    url: /bijeenkomsten
-    text: Kom naar de bijeenkomsten
+    url: /planning
+    text: View the roadmap
 ---
-## Over het programma
+## Algorithmic Transparency Standard
 
-Overheden zijn zich meer en meer bewust van de impact van algoritmes op publieke waarden. In het innovatie-programma 'Publieke controle op algoritmes' ontwikkelden de G4, de 12 Provincies, de Politie en Rijkswaterstaat gezamenlijk een beleidsinstrumenten voor verantwoorde en transparante inzet van algoritmes en een metadata standaard voor het registreren van inzet van algoritmes in een algoritmeregister.
+Algorithm registers offer a standardized, searchable and archivable way to document the decisions and assumptions  that were made in the process of developing, implementing, managing, and ultimately dismantling algorithmic applications in public organizations.
 
-In dit vervolgprogramma richten we ons op het samen in de praktijk brengen en doorontwikkelen hiervan:
+For citizens, an algorithm register can be a medium to facilitate participation and it allows them to influence how cities’ use of algorithms impacts their lives. For local governments, it can be a tool to manage AI governance in the development and operation process according to existing public services principles of responsibility, transparency, and security. At the basis for any (interoperable) algorithm registry is a data schema that determines the scope of information on algorithms and describes the dataset to support common understanding.
 
-### We brengen algoritmeregisters in de praktijk
+### Building on top of existing work
 
-Als organisaties die al bezig zijn met een algoritmeregister vormen we de <a href="/kopgroep">kopgroep</a>. Tweewekelijks bespreken we onze plannen en ontwikkelingen met elkaar, mogelijke verbeteringen van de [standaard](https://standaard.algoritmeregister.org), en ideeën voor onderzoek en instrumenten, zoals een [beheertool](/beheertool).
-
-### We delen onze kennis en ervaringen
-
-Ondersteunende <a href="/documenten">documenten</a> zoals handreikingen voor governance, bezwaarprocedures, inkoopvoorwaarden en impact assessments delen we centraal. Daarover organiseren we maandelijkse <a href="/bijeenkomsten">bijeenkomsten</a> voor organisaties die ook willen beginnen. Zo groeit de kopgroep en werken we aan een breed gedragen standaard. 
-
-### We werken aan een nationale catalogus
-
-We houden een overzicht bij van alle bekende registers (ook die in ontwikkeling) op [algoritmeregister.nl](https://www.algoritmeregister.nl). Momenteel werken we aan het automatisch indexeren daarvan, zodat algoritmeregistraties centraal doorzoekbaar zijn in een nationale catalogus.
+Building on good practice of Amsterdam and Helsinki, KSF Lab will develop a common data schema for algorithm registries in cities. We will produce a validated, open-source version of an algorithm registry data schema, publicly available on the GitHub platform, that is ready for use in local algorithm registries. The registry data schema includes field attributes, names, categories, types, and descriptions and signifies the minimum required fields for a common baseline.
