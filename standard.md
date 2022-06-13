@@ -7,7 +7,7 @@ orgs: true
 ---
 ## About the current standard
 
-The current version of the Dutch Algorithmic Transparency Standard is 0.2. What this means is that it is still in full development, and you can expect some major changes before it reaches 1.0. Some parts that need work are technical specification of the field types, categorization, internationalization and localization (the possibility to add fields on a local level).
+The current version of the [Dutch Algorithmic Transparency Standard](https://standaard.algoritmeregister.org/standard) is 0.2. What this means is that it is still in full development, and you can expect some major changes before it reaches 1.0. Some parts that need work are technical specification of the field types, categorization, internationalization and localization (the possibility to add fields on a local level).
 
 ## What will we be doing
 
