@@ -1,4 +1,4 @@
-- when: Juni 1st
+- when: June 1st
   type: Milestone
   title: Start preparation phase
   description: |
@@ -11,7 +11,7 @@
     – plan kick-off meeting (online)
     – create meetup calendar
 
-- when: Juni 20th
+- when: June 20th
   type: Milestone
   title: Start analysis phase
   description: |
@@ -22,7 +22,7 @@
     – fit-gap analysis
     – online* demo and discussion meetup
 
-- when: July 18th
+- when: July 25th
   type: Milestone
   title: Start definition phase
   description: |
