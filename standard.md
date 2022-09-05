@@ -17,6 +17,8 @@ orgs: true
 
 We are currently updating the 0.2 version of the Dutch Standard for Algorithmic Transparency. Below is a live preview of the 0.3 version of the standard currently being developed. Colored <span class="attribute required">attributes</span> are required attributes.
 
+There is also a [more technical specification](https://standaard.algoritmeregister.org/overview) for use in combination with the [.csv template for registration](https://standaard.algoritmeregister.org/registration-v0.3.template.csv).
+
 <style>
     h3 {
         border-bottom: 1px solid gray;
