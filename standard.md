@@ -62,6 +62,8 @@ There is also a [more technical specification](https://standaard.algoritmeregist
     }
 </script>
 
-For more information please contact:
+<h2 class="my5">More information</h2>
 
-<a href="mailto:info@algoritmeregister.org" class="btn display-inline-block mb4">info@algoritmeregister.org</a>
+For more information please contact Eurocities:
+
+<a href="https://eurocities.eu/" class="btn display-inline-block mb4">Visit Eurocities website</a>

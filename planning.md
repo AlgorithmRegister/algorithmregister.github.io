@@ -24,6 +24,6 @@ To test this proposed data standard in practice, we will create an interview tem
 
 <h2 class="my5">More information</h2>
 
-For more information please contact:
+For more information please contact Eurocities:
 
-<a href="mailto:info@algoritmeregister.org" class="btn display-inline-block mb4">info@algoritmeregister.org</a>
+<a href="https://eurocities.eu/" class="btn display-inline-block mb4">Visit Eurocities website</a>
