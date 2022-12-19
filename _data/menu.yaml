@@ -2,8 +2,8 @@
   title: home
 - url: /standard
   title: standard
-- url: /documents
-  title: documents
+# - url: /documents
+#   title: documents
 - url: /planning
   title: planning
 - url: /eurocities
