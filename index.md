@@ -11,7 +11,7 @@ cta-button:
     url: /planning
     text: View the roadmap
 ---
-## Algorithmic Transparency Standard
+## Towards a common Algorithmic Transparency Standard
 
 Algorithm registers offer a standardized, searchable and archivable way to document the decisions and assumptions  that were made in the process of developing, implementing, managing, and ultimately dismantling algorithmic applications in public organizations.
 
