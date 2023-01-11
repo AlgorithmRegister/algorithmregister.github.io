@@ -10,11 +10,11 @@ orgs: false
 ---
 ## About the standard
 
-The Standard for Algorithmic Transparency was created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
+The Algorithmic Transparency Standard is created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
 
-Below is a live preview of the data schema. It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>.
+Below is a live preview of the current data schema, version 3.0. It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
 
-There is also a [more technical specification](https://standaard.algoritmeregister.org/overview) for use in combination with the [.csv template for registration](https://standaard.algoritmeregister.org/registration-v0.3.template.csv), and a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) for technical users.
+For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) is also available.
 
 <style>
     h3 {
@@ -32,13 +32,37 @@ There is also a [more technical specification](https://standaard.algoritmeregist
         background: #4D80E2;
         color: #fff;
     }
+    @media print {
+        .notes {
+            display: block !important;
+            height: 150px;
+            width: 100%;
+            border: 1px solid gray;
+            margin-bottom: 10px;
+            break-inside: avoid;
+        }
+        footer, img, nav, #eurocities {
+            display: none !important;
+        }
+    }
 </style>
 <div id="data"></div>
 <script type="text/html" id="attribute_tmpl">
-    <p>
-        <b><%=name%> </b><span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span><br>
-        <i><%=description%></i>
-    </p>
+    <div>
+        <p>
+            <b><%=name%></b><br>
+            <span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span>
+            (<%=type%>, <% if (!required) { %>not<% } %> required)<br>
+            <%=description%>
+
+            <% if (type === "enum") { %>
+            <br><br>Possible values: <%=(obj.enum+'').replace(/\,/g, ", ")%>
+            <% } %>
+        </p>
+    </div>
+    <div class="notes" style="display: none">
+        <span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span>
+    </div>
 </script>
 <script src="/js/microtemplating.js"></script>
 <script>
@@ -51,9 +75,13 @@ There is also a [more technical specification](https://standaard.algoritmeregist
             var prop = data.properties[i];
             if (prop.category !== category) {
                 category = prop.category;
-                resultsEl.innerHTML += `<h3>${category}</h3>`;
+                resultsEl.innerHTML += `<h3>CATEGORY: ${category}</h3>`;
             }
             prop.attr = i;
+            if (prop.enum) prop.type = "enum";
+            if (prop.const) prop.type = "const";
+            if (prop.format) prop.type = prop.format;
+            console.log(prop);
             resultsEl.innerHTML += tmpl("attribute_tmpl", prop);
         }
     }
