@@ -3,7 +3,7 @@ layout: default
 title: Eurocities DF LAB
 description: Testing new ways of working in Eurocities.
 splash: true
-orgs: true
+orgs: false
 ---
 ## About Eurocities DF LAB
 

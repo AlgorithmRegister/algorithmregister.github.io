@@ -1,55 +1,57 @@
-- when: June 1st
+- when: June 1st, 2022
   type: Milestone
-  title: Start preparation phase
+  title: Started preparation phase
   description: |
     Putting everything in place to get going:
     
-    – create project website to publish intermedia results
-    – prepare a copy of the Dutch Algorithmic Transparency Standard repository
-    – prepare the kick-off meeting and interviews
-    – contact participating cities and plan individual interviews with cities
-    – plan kick-off meeting (online)
-    – create meetup calendar
+    – created <a href="https://www.algorithmregister.org">project website</a> to publish intermedia results
+
+    – prepared a <a href="https://github.com/AlgorithmRegister">copy</a> of the Dutch Algorithmic Transparency Standard repository
+    
+    – prepared the kick-off meeting and interviews
+    
+    – contacted participating cities and scheduled individual interviews with cities
+
+    – planned kick-off meeting (online)
+
+    – created meetup calendar
 
 - when: June 20th
   type: Milestone
-  title: Start analysis phase
+  title: Started analysis phase
   description: |
-    Studying the existing standards and the local context and needs from the different participating cities.
+    Studied the existing standards and the local contexts and needs from the different participating cities.
 
-    – online* kick-off meeting (introduction to the Dutch standard, goals, discussion)
-    – individual interviews (introduction, goals, local context, use cases)
-    – fit-gap analysis
+    – online* kick-off meeting (introduction to the <a href="https://standaard.algoritmeregister.org">Dutch standard</a>, <a href="/analysis">goals</a>, discussion)
+
+    – individual interviews (introduction, <a href="/analysis">goals, local context, use cases</a>)
+
+    – <a href="/fit-gap">fit-gap analysis</a>
+
     – online* demo and discussion meetup
 
 - when: August 15th
   type: Milestone
-  title: Start definition phase
+  title: Started definition phase
   description: |
-    Create a first draft of the proposed update to the Algorithmic Transparency Standard.
+    Created a first draft of the proposed update to the Algorithmic Transparency Standard.
 
-    – create version 0.3 data schema proposal(s)
-    – create <a href="https://standaard.algoritmeregister.org/form">interview form</a> for testing
-    – write documentation
-    – online* demo and discussion meetup every 2 weeks
+    – created version 0.3 data schema draft
+
+    – created <a href="/template">interview template</a> and documentation for testing
+
+    – online* demo and discussion meetups every 2 weeks
 
 - when: September 5th
   type: Milestone
-  title: Start development/pilot phase
+  title: Started development/pilot phase
   description: |
-    Pilot using the proposed updated Algorithmic Transparency Standard in the different participating cities, learning from these experiences and updating the proposed update.
-
-- when: November 21st
-  type: Milestone
-  title: Start publication phase
-  description: |
-    Create the final proposal for updating the Algorithmic Transparency Standard and publishing it.
-
-    – publish standard and documentation to website
-    – online* end presentation
+    Piloted using the proposed updated Algorithmic Transparency Standard in the different participating cities, <a href="/analysis">learned from these experiences</a> and updated the proposed update.
 
 - when: December 2nd
   type: Milestone
-  title: End of project
+  title: Started publication phase
   description: |
-    
+    Created the final proposal for updating the Algorithmic Transparency Standard.
+
+    – published standard and documentation to website

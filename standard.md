@@ -1,23 +1,20 @@
 ---
 layout: default
 title: Algorithmic Transparency Standard
-description: Updating the Dutch Algorithmic Transparency Standard
+description: Version 0.3 (beta)
 splash: true
-orgs: true
+orgs: false
+#cta-button:
+#    url: /plans
+#    text: "Next: plans for 2023"
 ---
-[//]: # (## About the current standard)
+## About the standard
 
-[//]: # (The current version of the [Dutch Algorithmic Transparency Standard](https://standaard.algoritmeregister.org/standard) is 0.2. What this means is that it is still in full development, and you can expect some major changes before it reaches 1.0. Some parts that need work are technical specification of the field types, categorization, internationalization and localization (the possibility to add fields on a local level).)
+The Standard for Algorithmic Transparency was created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
 
-[//]: # (## What will we be doing)
+Below is a live preview of the data schema. It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>.
 
-[//]: # (Our project focusses on making an iteration on the current Dutch Algorithmic Transparency Standard and its documentation. By doing so, we hope and expect to stay compatible, working towards an international standard.)
-
-## v0.3 live preview
-
-We are currently updating the 0.2 version of the Dutch Standard for Algorithmic Transparency. Below is a live preview of the 0.3 version of the standard currently being developed. Colored <span class="attribute required">attributes</span> are required attributes.
-
-There is also a [more technical specification](https://standaard.algoritmeregister.org/overview) for use in combination with the [.csv template for registration](https://standaard.algoritmeregister.org/registration-v0.3.template.csv).
+There is also a [more technical specification](https://standaard.algoritmeregister.org/overview) for use in combination with the [.csv template for registration](https://standaard.algoritmeregister.org/registration-v0.3.template.csv), and a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) for technical users.
 
 <style>
     h3 {
@@ -61,9 +58,3 @@ There is also a [more technical specification](https://standaard.algoritmeregist
         }
     }
 </script>
-
-<h2 class="my5">More information</h2>
-
-For more information please contact Eurocities:
-
-<a href="https://eurocities.eu/" class="btn display-inline-block mb4">Visit Eurocities website</a>

@@ -1,0 +1,21 @@
+- name: Amsterdam 
+  country: the Netherlands
+  code: NL
+- name: Barcelona
+  country: Spain
+  code: ES
+- name: Brussels
+  country: Belgium
+  code: BE
+- name: Eindhoven
+  country: the Netherlands
+  code: NL
+- name: Mannheim
+  country: Germany
+  code: DE
+- name: Rotterdam
+  country: the Netherlands
+  code: NL
+- name: Sofia
+  country: Bulgaria
+  code: BG

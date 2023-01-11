@@ -1,0 +1,10 @@
+- change: Updated the sections
+  rationale: To make the standard more modular we updated the section names.
+- change: Introduced 'end_date'
+  rationale: 
+- change: Moved 'contact_email' to metadata
+  rationale: 
+- change: Added required fields
+  rationale: To ensure a "common baseline" we require 'name', 'organization', 'department', etc.
+- change: Added rationale
+  rationale: To communicate why a field is in the standard, we added a 'rationale' to each field.

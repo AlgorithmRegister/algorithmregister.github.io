@@ -1,10 +1,17 @@
-<div class="mb6">
+<div class="md-zone mb6">
   <h4 class="text-h4 text-center mb4">— Participating Cities —</h4>
-  <div class="mx-auto w-max-wrapper flex justify-center">
-    <img
+  <div class="mx-auto w-max-wrapper flex justify-center" style="flex-wrap: wrap">
+    {% for city in site.data.cities %}
+    <div style="text-align: center; padding: 1em">
+      <h2>{{ city.name }}</h2>
+      <h3>{{ city.code }}</h3>
+      <!-- {{ city.img }} -->
+    </div>
+    {% endfor %}
+    <!-- <img
       src="/img/temp-organisations-strip.png"
       srcset="/img/temp-organisations-strip@2x.png 2x"
       class="display-block"
-    />
+    /> -->
   </div>
 </div>

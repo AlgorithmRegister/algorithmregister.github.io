@@ -2,9 +2,19 @@
   title: home
 - url: /standard
   title: standard
+- url: /guidance
+  title: guidance
+# - url: /background
+#   title: background
+# - url: /analysis
+#   title: analysis
+# - url: /changelog
+#   title: changelog
 # - url: /documents
 #   title: documents
-- url: /planning
-  title: planning
+# - url: /plans
+#   title: plans
+- url: /community
+  title: community
 - url: /eurocities
   title: DF LAB
