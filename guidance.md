@@ -28,13 +28,15 @@ At the basis for any (interoperable) algorithm register is a data schema that de
 
 Exactly which uses of algorithmic applications need to be documented was outside the scope of this project and is, for now, left to be decided by the individual cities implementing an algorithm register.
 
-More information on this can soon be found in the [community section](/community).
+To join the discussion on this in 2023, please read the [community section](/community).
 
-## Using this guidance
+## 2. Using this guidance
 
 To understand if the Algorithmic Transparency Standard is usable and useful in a local context, Digital Forum LAB members piloted it in their city administration. By gathering information and populating the fields of the Standard, feedback is generated that will be used to adjust the data schema in the future.
 
 This guidance was developed for this purpose.
+
+## 3. Getting started
 
 ### Step 1: List algorithms
 
