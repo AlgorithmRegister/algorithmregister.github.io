@@ -40,7 +40,7 @@ This guidance was developed for this purpose.
 
 Identify and select at least three algorithms in use in the city.
 
-Use the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) to execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' and 'METADATA' fields. Check out the [supporting information](https://standaard.algoritmeregister.org/overview) or download the [Word version of the Standard](#) (available soon).
+Use the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx) as your main algorithm register file. Execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' and 'METADATA' fields, one row per algorithm. Check out the [Standard documentation](/standard) for more information.
 
 ### Step 2: Prioritize algorithms
 
@@ -60,29 +60,27 @@ Information to populate the Standard can be found, for example, by:
 - Consulting functional documentation
 - Making inquiries with vendors
 
-To prepare for the interview, print and read the [standard specification](/standard) and print out the [interview form](#) (available soon).
+To prepare for the interview, print and read the [Standard documentation](/standard).
 
-During the interview try to go through the questions one by one, writing down the answers on the interview form.
+During the interview try to go through the attributes/questions one by one, writing down the answers.
 
 ### Step 4: Create registration
 
-Capture the information by populating the corresponding fields in a separate version of the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv).
-
-Share the .csv file with the algorithm contact person to verify everything is OK.
+Capture the information by populating the corresponding fields in a separate version of the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx). This enables you to share this file with the algorithm contact person to verify everything is OK.
 
 ### Step 5: Add to the "Algorithm Register"
 
-If all is OK, copy the row from the .csv file to the corresponding entry in the algorithm register .csv file.
+If all is OK, copy the row from the separat file to the corresponding entry in the main algorithm register file.
 
 ### Step 6: Publish (optional)
 
-Create a publication copy of the algorithm register .csv file.
+Create a publication copy of the main algorithm register file.
 
-Be sure to check the publication copy for private information and sensitive information.
+Be sure to check the publication copy for private information and sensitive information, and adjust it accordingly.
 
 Request for permission to publish the publication copy.
 
-Publish the publication copy to your organizations' website or data platform.
+Publish the publication copy, for example to your organizations' website or data platform.
 
 ### Step 7: Repeat!
 
