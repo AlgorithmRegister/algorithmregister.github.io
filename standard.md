@@ -49,14 +49,18 @@ For technical users, a [json schema file](https://standaard.algoritmeregister.or
 <div id="data"></div>
 <script type="text/html" id="attribute_tmpl">
     <div>
-        <p>
+        <p style="border-left: 10px solid #F4FAFF; padding-left: 10px; margin-bottom: 2em">
             <b><%=name%></b><br>
             <span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span>
             (<%=type%>, <% if (!required) { %>not<% } %> required)<br>
-            <%=description%>
+            <%=description.replace(/((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g, "<a href='$1' target='_blank'>$1</a>")%>
 
             <% if (type === "enum") { %>
             <br><br>Possible values: <%=(obj.enum+'').replace(/\,/g, ", ")%>
+            <% } %>
+
+            <% if (type === "const") { %>
+            <br><br>This value should always be <%=obj.const%> if you are using this version of the Standard.
             <% } %>
         </p>
     </div>
