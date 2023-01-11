@@ -16,4 +16,4 @@ In 2023 we are planning regular online Community of Practice meetings to share k
 - Bias tools and techniques
 - AI use cases and dilemmas
 
-If you want to join, please send an e-mail to [...]().
+If you want to join, please send an e-mail to [DF Lab]().
