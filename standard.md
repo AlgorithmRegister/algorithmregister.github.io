@@ -12,7 +12,7 @@ orgs: false
 
 The Algorithmic Transparency Standard is created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
 
-Below is a live preview of the current data schema, version 3.0. It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
+Below is a live preview of the current data schema, version 0.3 (beta). It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
 
 For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) is also available.
 
