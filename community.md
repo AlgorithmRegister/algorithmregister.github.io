@@ -16,4 +16,4 @@ In 2023 we are planning regular online Community of Practice meetings to share k
 - Bias tools and techniques
 - AI use cases and dilemmas
 
-If you want to join, please send an e-mail to [DF Lab]().
+If you have any questions or if you want to join the meetings, please contact DF Lab [Lodewijk Noordzij (lodewijk.noordzij@eurocities.eu)](mailto:lodewijk.noordzij@eurocities.eu).
