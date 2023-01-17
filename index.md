@@ -10,15 +10,15 @@ splash:
         text: Start using the standard
 orgs: true
 ---
-## Eurocities DF Lab is helping European cities provide clear information about algorithmic tools they use to support decisions.
+## Eurocities' Digital Forum Lab is helping European cities provide clear information about algorithmic tools they use to support decisions.
 
 The Algorithmic Transparency Standard helps European cities provide clear information about the algorithmic tools they use, and why they’re using them.
 
 Algorithmic transparency means being open about how algorithmic tools support decisions. This includes providing information on algorithmic tools and algorithm-assisted decisions in a complete, open, understandable, easily-accessible, and free format.
 
-Building on good practice of Amsterdam and Helsinki, and the Dutch Standard for Algorithmic Transparency, DF Lab developed an updated version of the Algorithmic Transparency Standard — a common data schema for algorithm registries that is validated, open-source, publicly available, and ready for use in local algorithm registers.
+Building on good practice of Amsterdam and Helsinki, and the Dutch Standard for Algorithmic Transparency, Eurocities' Digital Forum Lab developed an updated version of the Algorithmic Transparency Standard — a common data schema for algorithm registries that is validated, open-source, publicly available, and ready for use in local algorithm registers.
 
-In collaboration with {% for city in site.data.cities %}{{ city.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}, the 2022 Eurocities DF Lab developed:
+In collaboration with {% for city in site.data.cities %}{{ city.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}, the Eurocities' Digital Forum Lab developed:
 
 - <a href="/standard">Algorithmic Transparency Standard</a>
 

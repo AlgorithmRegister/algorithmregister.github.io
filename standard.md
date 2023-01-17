@@ -10,9 +10,23 @@ orgs: false
 ---
 ## About the standard
 
-The Algorithmic Transparency Standard is created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
+The Algorithmic Transparency Standard is a set of shared categories of information that cities
+can use to help people understand how the algorithms used in local administrations work, and
+what their purpose is. It also allows people to compare different algorithms within and across
+cities. This standard supports documenting decisions and assumptions for both
+management of artificial intelligence (AI) governance and provide meaningful
+transparency in a standardized way. To learn more about what the standard is and how it
+works, read our [guidance page](/guidance).
 
-Below is a live preview of the current data schema, version 0.3 (beta). It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
+[//]: # The Algorithmic Transparency Standard is created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
+
+Below is a live preview of the current data schema, version 0.3 (beta). It contains the
+categories of information that cities should fill in about their algorithms to create a clear and
+comparable overview. These fields refer to different phases of the algorithm life cycle. Required attributes are coloured <span class="attribute required">blue</span>.
+
+Once you feel comfortable with the categories and descriptions, please download the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx) and fill in the information in relation to your city. When you are happy that the information is complete, the idea is for you to upload it on your own public website for full transparency. A complete overview of how to fill in the template is available on our [guidance page](/guidance).
+
+[//]: # Below is a live preview of the current data schema, version 0.3 (beta). It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
 
 For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) is also available.
 
