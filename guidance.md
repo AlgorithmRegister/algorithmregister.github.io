@@ -44,7 +44,7 @@ city can join the community to help guide the future of this standard.
 
 Identify and select at least three algorithms in use in your city.
 
-Use the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx) as your main algorithm register file. Execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' and 'METADATA' fields, one row per algorithm. Check out the [standard documentation](/standard) for more information.
+Use the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx) as your main algorithm register file. Execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' fields, one row per algorithm. Check out the [standard documentation](/standard) for more information.
 
 ### Step 2: Prioritise algorithms
 
