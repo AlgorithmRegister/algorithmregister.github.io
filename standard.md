@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Algorithmic Transparency Standard
-description: Version 0.3 (beta)
+description: Version 0.3.1 (beta)
 splash: true
 orgs: false
 #cta-button:
@@ -20,15 +20,15 @@ works, read our [guidance page](/guidance).
 
 [//]: # The Algorithmic Transparency Standard is created to support documenting decisions and assumptions for both management of AI governance and providing meaningful transparency in a standardized way.
 
-Below is a live preview of the current data schema, version 0.3 (beta). It contains the
+Below is a live preview of the current data schema, version 0.3.1 (beta). It contains the
 categories of information that cities should fill in about their algorithms to create a clear and
 comparable overview. These fields refer to different phases of the algorithm life cycle. Required attributes are coloured <span class="attribute required">blue</span>.
 
-Once you feel comfortable with the categories and descriptions, please download the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx) and fill in the information in relation to your city. When you are happy that the information is complete, the idea is for you to upload it on your own public website for full transparency. A complete overview of how to fill in the template is available on our [guidance page](/guidance).
+Once you feel comfortable with the categories and descriptions, please download the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.xlsx) and fill in the information in relation to your city. When you are happy that the information is complete, the idea is for you to upload it on your own public website for full transparency. A complete overview of how to fill in the template is available on our [guidance page](/guidance).
 
-[//]: # Below is a live preview of the current data schema, version 0.3 (beta). It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.template.xlsx).
+[//]: # Below is a live preview of the current data schema, version 0.3.1 (beta). It contains the fields that can be documented during the different phases of the algorithm life cycle, together with their descriptions. Required attributes are colored <span class="attribute required">blue</span>. Please use in combination with the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.xlsx).
 
-For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json) is also available.
+For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.1.schema.json) is also available.
 
 <style>
     h3 {
@@ -84,7 +84,7 @@ For technical users, a [json schema file](https://standaard.algoritmeregister.or
 </script>
 <script src="/js/microtemplating.js"></script>
 <script>
-    var url = "https://standaard.algoritmeregister.org/schemas/registration-v0.3.schema.json";
+    var url = "https://standaard.algoritmeregister.org/schemas/registration-v0.3.1.schema.json";
     fetch(url).then(response => response.json()).then(data => render(data));
     function render(data) {
         var resultsEl = document.getElementById("data");
