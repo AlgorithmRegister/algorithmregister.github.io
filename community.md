@@ -12,7 +12,7 @@ orgs: true
 
 In 2023 we are planning regular online Community of Practice meetings to share knowledge and experience on three topics:
 
-- Registration tools and governance
+- Standard, registration tools and governance
 - Bias tools and techniques
 - AI use cases and dilemmas
 
