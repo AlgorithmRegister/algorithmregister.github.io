@@ -63,9 +63,10 @@ For technical users, a [json schema file](https://standaard.algoritmeregister.or
 <div id="data"></div>
 <script type="text/html" id="attribute_tmpl">
     <div>
+        <a name="<%=attr%>"></a>
         <p style="border-left: 10px solid #F4FAFF; padding-left: 10px; margin-bottom: 2em">
             <b><%=name%></b><br>
-            <span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span>
+            <a href="#<%=attr%>"><span class="attribute <% if (required) { %>required<% } %>"><%=attr%></span></a>
             (<%=type%>, <% if (!required) { %>not<% } %> required)<br>
             <%=description.replace(/((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g, "<a href='$1' target='_blank'>$1</a>")%>
 
@@ -99,8 +100,11 @@ For technical users, a [json schema file](https://standaard.algoritmeregister.or
             if (prop.enum) prop.type = "enum";
             if (prop.const) prop.type = "const";
             if (prop.format) prop.type = prop.format;
-            console.log(prop);
             resultsEl.innerHTML += tmpl("attribute_tmpl", prop);
         }
+        
+        // jump to hash
+        var hash = window.location.hash;
+        if (hash) location.href = hash;
     }
 </script>
