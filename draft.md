@@ -24,7 +24,7 @@ Below is a live preview of the current data schema, version 0.3.1 (draft). It co
 categories of information that cities should fill in about their algorithms to create a clear and
 comparable overview. These fields refer to different phases of the algorithm life cycle. Required attributes are coloured <span class="attribute required">blue</span>.
 
-For technical users, a [json schema file](https://standaard.algoritmeregister.org/schemas/registration-v0.3.1.schema.json) is also available.
+For technical users, a [json schema file](https://www.algoritmeregister.org/standard/schemas/registration-v0.3.1.schema.json) is also available.
 
 <style>
     h3 {
@@ -80,7 +80,7 @@ For technical users, a [json schema file](https://standaard.algoritmeregister.or
 </script>
 <script src="/js/microtemplating.js"></script>
 <script>
-    var url = "https://standaard.algoritmeregister.org/schemas/registration-v0.3.1.schema.json";
+    var url = "https://www.algoritmeregister.org/standard/schemas/registration-v0.3.1.schema.json";
     fetch(url).then(response => response.json()).then(data => render(data));
     function render(data) {
         var resultsEl = document.getElementById("data");

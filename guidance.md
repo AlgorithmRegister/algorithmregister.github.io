@@ -44,7 +44,7 @@ city can join the community to help guide the future of this standard.
 
 Identify and select at least three algorithms in use in your city.
 
-Use the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.xlsx) as your main algorithm register file. Execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' fields, one row per algorithm. Check out the [standard documentation](/standard) for more information.
+Use the [.csv template](https://www.algoritmeregister.org/standard/registration-v0.3.1.template.csv) or the [Excel template](https://www.algoritmeregister.org/standard/registration-v0.3.1.template.xlsx) as your main algorithm register file. Execute a "quick scan" of the selected algorithms by populating the 'BASIC INFO' fields, one row per algorithm. Check out the [standard documentation](/standard) for more information.
 
 ### Step 2: Prioritise algorithms
 
@@ -70,7 +70,7 @@ During the interview try to go through the attributes/questions one by one, writ
 
 ### Step 4: Create registration
 
-Capture the information by populating the corresponding fields in a separate version of the [.csv template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.csv) or the [Excel template](https://standaard.algoritmeregister.org/registration-v0.3.1.template.xlsx). This enables you to share this file with the algorithm contact person to verify everything is OK.
+Capture the information by populating the corresponding fields in a separate version of the [.csv template](https://www.algoritmeregister.org/standard/registration-v0.3.1.template.csv) or the [Excel template](https://www.algoritmeregister.org/standard/registration-v0.3.1.template.xlsx). This enables you to share this file with the algorithm contact person to verify everything is OK.
 
 ### Step 5: Add to the Algorithm Register
 
