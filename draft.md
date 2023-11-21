@@ -80,7 +80,7 @@ For technical users, a [json schema file](https://www.algoritmeregister.org/stan
 </script>
 <script src="/js/microtemplating.js"></script>
 <script>
-    var url = "https://www.algoritmeregister.org/standard/schemas/registration-v0.3.1.schema.json";
+    var url = "https://standaard.algoritmeregister.org/schemas/registration-v0.3.1.schema.json";
     fetch(url).then(response => response.json()).then(data => render(data));
     function render(data) {
         var resultsEl = document.getElementById("data");
